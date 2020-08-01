@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#db4938" />
+    <meta name="Description" content="Put your description here.">
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-gray.css">
+    <body>
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="images/icons/icon-72.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-96.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-128.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-144.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-152.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-384.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-512.png" />
+    <title>Steve's web</title>
+  </head>
+  
+  <body>
+    <header class="w3-container w3-card w3-theme">
+        <h1>Movies</h1>
+    </header>
+
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+  
+  <!-- Page Content -->
+
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div>
+      <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+      <div class="w3-container">
+        <h1>Sidebar Overlay</h1>
+        <p>The w3-overlay class can be used to create an overlay effect, when opening the sidebar. The w3-overlay class adds a black background with a 50% opacity to the "page content" - this effect will "highlight" the side navigation</p>
+        <p>Click on the "hamburger menu" to see the effect.</p>
+      </div>
+    </div>
+
+    <div class="w3-container w3-black">
+        <p>My footer information</p>
+      </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
