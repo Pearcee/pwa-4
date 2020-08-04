@@ -1,6 +1,6 @@
 
 
-STR=$(date +%Y%m%d)
+STR=$(date +%y:%m:%d:%T)
 date +"%y.%m.%d.%T"
 git status
 git add --all .
