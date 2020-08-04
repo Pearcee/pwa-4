@@ -1,7 +1,8 @@
 
 
-$comment = date +"%y.%m.%d.%T"
+STR=$(date +%Y%m%d)
+date +"%y.%m.%d.%T"
 git status
 git add --all .
-git commit -m $comment
+git commit -m $STR
 git push -u origin master
