@@ -2,6 +2,7 @@ const staticVersion = "dev-site-v2";
 const assets = [
   "/",
   "/index.html",
+  "/location.html",
   "/css/style.css",
   "/js/app.js",
 ];
