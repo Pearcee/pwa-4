@@ -10,7 +10,7 @@ body {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #000001;
   position: relative;
 }
 
@@ -39,7 +39,7 @@ body {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: #fff;
 }
 
 .nav > .nav-links > a:hover {
