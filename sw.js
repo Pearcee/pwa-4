@@ -1,9 +1,11 @@
-const staticVersion = "dev-site-v4";
+
+const staticVersion = "dev-site-v2";
 const assets = [
   "/",
   "/index.html",
-  "/location.html",
-  "/grid.html",
+  "/css.html",
+  "/js.html",
+  "/svg.html",
   "/css/style.css",
   "/js/app.js",
 ];
