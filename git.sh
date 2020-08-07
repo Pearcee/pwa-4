@@ -1,5 +1,5 @@
 
-
+$STR=$(date +%y:%m:%d:%T)
 STR=$(date +%y:%m:%d:%T)
 date +"%y.%m.%d.%T"
 git status

@@ -1,3 +1,4 @@
+// 
 @import './reset';
 @import './variables';
 
@@ -20,7 +21,7 @@ body {
 
     .nav-title {
       display: inline-block;
-      font-size: 22px;
+      font-size: $fontsizebg;
       color: $bgcolor;
       padding: 10px 10px 10px 10px;
     }
