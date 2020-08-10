@@ -8,6 +8,7 @@ body {
   font-size: $fontsize;
   font-family: $font;
   margin: 0px;
+  text-align: justify;
 }
 
 .nav {
@@ -136,7 +137,8 @@ footer {
   width: 33.33%;
   padding: 10px;
   border: 1px solid $navbgcolor;
-  height: 300px; /* Should be removed. Only for demonstration */
+  background-color:#aaa;
+  height: 100px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -145,6 +147,17 @@ footer {
   display: table;
   clear: both;
 }
+
+.column2 {
+  @extend .column;
+  background-color: #bbb;
+}
+
+.column3 {
+  @extend .column;
+  background-color: #ccc;
+}
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
